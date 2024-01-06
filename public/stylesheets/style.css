@@ -1,0 +1,61 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  }
+
+  h2 {
+    margin:0px;
+    padding:20px 20px 10px 20px;
+    font-size:34px;
+    color:white;
+    text-shadow:1px 1px 1px #ccc;
+    text-align:left;
+    font-weight:400;
+    text-align:center;
+}
+
+
+/* HEADER */
+header {border-bottom: 3px solid #002D5E;
+        }
+
+.header_superior {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    background: radial-gradient(circle, black, #002D5E);
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+.logo img{
+    width: 400px;
+    display: block; 
+    margin: 0 auto;
+    }
+
+/* FOOTER */
+.footer {
+  background-color: #002D5E;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
