@@ -1,4 +1,4 @@
-var pool = require('./bd.js');
+var pool = require('./bd');
 var md5 = require('md5');
 
 async function getUserByUsernameAndPassword(user, password){

@@ -8,13 +8,13 @@
             </div>
              <div class="mb-3 row">
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputPassword" placeholder="Contraseña" name="password">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" name="password">
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">Ingresar</button>
         </form>
         {{#if error}}
-        <p>Usuario y/o Contraseña incorrecta</p>
+        <p style="color: red;">Usuario y/o Contraseña incorrecta</p>
         {{/if}}
     </div>
 </div>
