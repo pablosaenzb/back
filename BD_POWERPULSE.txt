@@ -1,0 +1,19 @@
+ID(primary key) / NOMBRE / MARCA / PRECIO /OBSERVACIONES
+
+PROCESADORES
+id /AMD Ryzen 5 5600G / AMD / 450000 / núcleos de CPU 6 de los hilos 12
+id/AMD Ryzen 7 5700G / AMD / 629000 / núcleos de CPU 8 de los hilos 16
+id/ Intel Core i7-2600K / INTEL / 690000 / núcleos 8. Cantidad de subprocesos16
+id/ Intel Core i5-3470S / INTEL / 495000 / núcleos 6. Cantidad de subprocesos 12
+
+GABINETE
+id/ YeYian HAIZEN 2500 / YeYian / 8000 / 5 ventiladores. Midtower
+id/  X616 Raidmax / Raidmax / 12000 / 5 ventiladores. Midtower
+id / Shenlong GT-503 /Shenlong / 40000 / 3 ventiladores. Midtower
+id / Raidmax S811tb / Raidmax / 44000 / 4 ventiladores. Midtower
+
+FUENTE DE PODER
+id /  Cx750f 750w / Corsair / 35000 / Sin observaciones
+id/ 600w HBP600-GS / Sentey / 49000 / Sin observaciones
+id/  RM1000e 750w / Corsair / 90000 / Sin observaciones
+id / X Plus 725W / Sentey / 22900 / Sin observaciones 
