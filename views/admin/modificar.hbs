@@ -7,7 +7,7 @@
         <div class="col-6 offset-3">
             <h4>Modificar Producto</h4>
             <br>
-            <form action="/admin/novedades/modificar" method="post">
+            <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
                 <input type="hidden" value="{{novedad.id}}" name="id">
                 <div class="mb-3 row">
                     <label for="">Nombre</label>
@@ -27,6 +27,15 @@
                  <div class="mb-3 row">
                 <label for="">Observaciones</label>
                 <textarea class="form-control"  name="observaciones">{{novedad.observaciones}}</textarea>
+                </div>
+                <div class="mb-3 row">
+                    <p>
+                        <label>Imagen: <input type="file" name="imagen" id="imagen"></label>
+                    </p>
+                    <p>
+                        <label><input type="checkbox" name="img_delete" id="img_delete" value="1">  Eliminar imagen actual  </label>
+                        <input type="hidden" name="img_original" value="{{novedad.img_id}}">
+                    </p>
                 </div>
                
                 <button type="submit" class="btn btn-primary">Modificar</button>
